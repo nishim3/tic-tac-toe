@@ -27,10 +27,16 @@ export default function Board() {
   }
 
   const winner = calculateWinner(squares);
+  const c=squares.filter(element => element===null);
   let status;
   if (winner) {
     status = 'Winner: ' + winner;
-  } else {
+  }
+  else if (c.length === 0)
+  {
+    status='Game Drawn';
+  }
+   else {
     status = 'Next player: ' + (xIsNext ? 'X' : 'O');
   }
 
