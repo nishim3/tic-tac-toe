@@ -7,7 +7,7 @@ function Square({value, onSquareClick}) {
     </button>
   );
 }
-function Restart({ active }) {
+function Restart({ active }) {//Restart
   if (!active) {
     return (
       <button onClick={() => window.location.reload()}>Restart</button>
