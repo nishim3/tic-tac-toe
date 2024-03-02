@@ -1,1 +1,1 @@
-A tic-tac-toe game I am making to learn basic React.
+A tic-tac-toe game I am making to learn basic React, following documentation.
